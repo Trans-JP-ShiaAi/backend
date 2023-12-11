@@ -44,6 +44,11 @@ const userSchema = mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    bookmark: {
+      type: [mongoose.Schema.Types.ObjectId],
+      ref: 'Bookmark',
+      default: [],
+    }
   },
   {
     timestamps: true,
