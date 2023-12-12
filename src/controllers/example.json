@@ -1,0 +1,358 @@
+[
+  {
+    "opposite_word": null,
+    "weight": 0,
+    "mobileId": 309520,
+    "pronunciation": null,
+    "type": "word",
+    "means": [
+      {
+        "field": "med",
+        "mean": "Janus Kinase 3 (JAK3) (má»™t loáº¡i enzym)"
+      }
+    ],
+    "phonetic": "ãƒ¤ãƒ¼ãƒŒã‚¹ã‚­ãƒŠãƒ¼ã‚¼3ï¼ˆãƒ¤ãƒŒã‚¹ã‚­ãƒŠãƒ¼ã‚¼3ï¼‰",
+    "word": "ãƒ¤ãƒ¼ãƒŒã‚¹ã‚­ãƒŠãƒ¼ã‚¼3ï¼ˆãƒ¤ãƒŒã‚¹ã‚­ãƒŠãƒ¼ã‚¼3ï¼‰",
+    "short_mean": "janus kinase 3",
+    "synsets": null,
+    "label": "ja_vi",
+    "_id": "dd76961c64a55bae2454194ead2dd992",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "cháº¥t há»¯u cÆ¡ sirtuin 3"
+      }
+    ],
+    "phonetic": "ã‚µãƒ¼ãƒãƒ¥ã‚¤ãƒ³ã‚¹ãƒªãƒ¼",
+    "word": "ã‚µãƒ¼ãƒãƒ¥ã‚¤ãƒ³3",
+    "short_mean": "cháº¥t há»¯u cÆ¡ sirtuin 3",
+    "weight": 0,
+    "mobileId": 339024,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "0f38adc6eba04de58a27993bf6a144ef",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "galectin 3 (má»™t loáº¡i protein mÃ  á»Ÿ ngÆ°á»i Ä‘Æ°á»£c mÃ£ hÃ³a bá»Ÿi gen lgals3)"
+      }
+    ],
+    "phonetic": "ã‚¬ãƒ¬ã‚¯ãƒãƒ³ã‚¹ãƒªãƒ¼",
+    "word": "ã‚¬ãƒ¬ã‚¯ãƒãƒ³3",
+    "short_mean": "galectin 3",
+    "weight": 0,
+    "mobileId": 340597,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "461b2a68acf6418eb07093ee70eb0c29",
+    "_rev": ""
+  },
+  {
+    "opposite_word": null,
+    "weight": -6,
+    "mobileId": 310761,
+    "pronunciation": null,
+    "type": "word",
+    "means": [
+      {
+        "field": "med",
+        "mean": "interleukin 3"
+      }
+    ],
+    "phonetic": "ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ­ã‚¤ã‚­ãƒ³3",
+    "word": "ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ­ã‚¤ã‚­ãƒ³3",
+    "short_mean": "interleukin 3",
+    "synsets": null,
+    "label": "ja_vi",
+    "_id": "6932fe49f60f7cb4067237d2e4cb80ab",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "endothelin 3 (má»™t protein mÃ  á»Ÿ ngÆ°á»i Ä‘Æ°á»£c mÃ£ hÃ³a bá»Ÿi gen edn3)"
+      }
+    ],
+    "phonetic": "ã‚¨ãƒ³ãƒ‰ã‚»ãƒªãƒ³ã‚¹ãƒªãƒ¼",
+    "word": "ã‚¨ãƒ³ãƒ‰ã‚»ãƒªãƒ³3",
+    "short_mean": "endothelin 3",
+    "weight": 0,
+    "mobileId": 341202,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "5b70059bcce4468d9a892ba0a19b3308",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Hemicholinium 3",
+    "word": "Hemicholinium 3",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 340470,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "41e1c0fe8c09472fb8113cb9a90241cf",
+    "_rev": ""
+  },
+  {
+    "opposite_word": null,
+    "weight": 0,
+    "mobileId": 309596,
+    "pronunciation": null,
+    "type": "word",
+    "means": [
+      {
+        "field": "med",
+        "mean": "aquaporin 3 (má»™t loáº¡i protein)"
+      }
+    ],
+    "phonetic": "ã‚¢ã‚¯ã‚¢ãƒãƒªãƒ³3",
+    "word": "ã‚¢ã‚¯ã‚¢ãƒãƒªãƒ³3",
+    "short_mean": "aquaporin 3",
+    "synsets": null,
+    "label": "ja_vi",
+    "_id": "44bb70de43c23600ea9fea6a958675c9",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "protein váº­n chuyá»ƒn glucose 3 (glut3)"
+      }
+    ],
+    "phonetic": "ã‚°ãƒ«ã‚³ãƒ¼ã‚¹ãƒˆãƒ©ãƒ³ã‚¹ãƒãƒ¼ã‚¿ãƒ¼ã‚¹ãƒªãƒ¼",
+    "word": "ã‚°ãƒ«ã‚³ãƒ¼ã‚¹ãƒˆãƒ©ãƒ³ã‚¹ãƒãƒ¼ã‚¿ãƒ¼3",
+    "short_mean": "protein váº­n chuyá»ƒn glucose 3",
+    "weight": 0,
+    "mobileId": 339412,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "1d35ad15349a4a0ca5e56e291d2f9e0e",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "dynamin 3 (protein á»Ÿ ngÆ°á»i Ä‘Æ°á»£c mÃ£ hÃ³a bá»Ÿi gen dnm3)"
+      }
+    ],
+    "phonetic": "ãƒ€ã‚¤ãƒŠãƒŸãƒ³ã‚¹ãƒªãƒ¼",
+    "word": "ãƒ€ã‚¤ãƒŠãƒŸãƒ³3",
+    "short_mean": "dynamin 3",
+    "weight": 0,
+    "mobileId": 345540,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "f681d24ce7bc4fb5bddcd0ae4ed6e9a6",
+    "_rev": ""
+  },
+  {
+    "opposite_word": null,
+    "weight": -146,
+    "mobileId": 307838,
+    "pronunciation": [
+      {
+        "word": "ã‚±ãƒ©",
+        "transcriptions": [
+          {
+            "romaji": "kera",
+            "kana": "ã‚±ãƒ©"
+          }
+        ],
+        "type": "regular"
+      },
+      {
+        "word": "ãƒãƒ³",
+        "transcriptions": [
+          {
+            "romaji": "chin'",
+            "kana": "ãƒãƒ³"
+          }
+        ],
+        "type": "regular"
+      },
+      {
+        "word": "3",
+        "transcriptions": [
+          {
+            "romaji": "3",
+            "kana": "3"
+          }
+        ],
+        "type": "punctuation"
+      }
+    ],
+    "type": "word",
+    "means": [
+      {
+        "field": "med",
+        "mean": "keratin 3"
+      }
+    ],
+    "phonetic": "ã‚±ãƒ©ãƒãƒ³3",
+    "word": "ã‚±ãƒ©ãƒãƒ³3",
+    "short_mean": "keratin 3",
+    "synsets": null,
+    "label": "ja_vi",
+    "_id": "f6ccf23e60b62df826b4ee3ce079045a",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "caveolin 3 (má»™t loáº¡i protein mÃ  á»Ÿ ngÆ°á»i Ä‘Æ°á»£c mÃ£ hÃ³a bá»Ÿi gen cav3)"
+      }
+    ],
+    "phonetic": "ã‚«ãƒ™ã‚ªãƒªãƒ³ã‚¹ãƒªãƒ¼",
+    "word": "ã‚«ãƒ™ã‚ªãƒªãƒ³3",
+    "short_mean": "caveolin 3",
+    "weight": 0,
+    "mobileId": 345420,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "f26c5ef58d5a47a4bca20a0b679de0fc",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Syndecan-3",
+    "word": "Syndecan-3",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 343954,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "bca1154d076e4df492e3b5bb69efb3aa",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "caspase 3 (má»™t loáº¡i enzyme á»Ÿ ngÆ°á»i Ä‘Æ°á»£c mÃ£ hÃ³a bá»Ÿi gen casp3)"
+      }
+    ],
+    "phonetic": "ã‚«ã‚¹ãƒ‘ãƒ¼ã‚¼ã‚¹ãƒªãƒ¼",
+    "word": "ã‚«ã‚¹ãƒ‘ãƒ¼ã‚¼3",
+    "short_mean": "caspase 3",
+    "weight": 0,
+    "mobileId": 344235,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "c5dd03be0ed145c5abae467bb1bc1ffd",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Claudin-3",
+    "word": "Claudin-3",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 338980,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "0d841a0179924ee6ba9e85a6ae512571",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Neurotrophin 3",
+    "word": "Neurotrophin 3",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 342127,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "7c7ce5519b1443f3b3bc3c2001176f39",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "desmoglein 3 (má»™t protein mÃ  á»Ÿ ngÆ°á»i Ä‘Æ°á»£c mÃ£ hÃ³a bá»Ÿi gen dsg3)"
+      }
+    ],
+    "phonetic": "ãƒ‡ã‚¹ãƒ¢ã‚°ãƒ¬ã‚¤ãƒ³ã‚¹ãƒªãƒ¼",
+    "word": "ãƒ‡ã‚¹ãƒ¢ã‚°ãƒ¬ã‚¤ãƒ³3",
+    "short_mean": "desmoglein 3",
+    "weight": 0,
+    "mobileId": 342048,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "79b0d596fbbe4d9bae94b8796c257fcb",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Mucin-3",
+    "word": "Mucin-3",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 342020,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "784042a957554a8494e477e4e02c279b",
+    "_rev": ""
+  },
+  {
+    "means": [
+      {
+        "field": "med",
+        "mean": "phÆ°Æ¡ng phÃ¡p Ä‘á»™ 3-3-9"
+      },
+      {
+        "field": "med",
+        "mean": "phÆ°Æ¡ng phÃ¡p phÃ¢n loáº¡i má»©c Ä‘á»™ rá»‘i loáº¡n Ã½ thá»©c"
+      },
+      {
+        "field": "med",
+        "mean": "thang Ä‘iá»ƒm hÃ´n mÃª nháº­t báº£n (jcs)"
+      }
+    ],
+    "phonetic": "ã•ã‚“ã•ã‚“ãã©ã»ã†ã—ã",
+    "word": "3-3-9åº¦æ–¹å¼",
+    "short_mean": "phÆ°Æ¡ng phÃ¡p Ä‘á»™ 3-3-9; phÆ°Æ¡ng phÃ¡p phÃ¢n loáº¡i má»©c Ä‘á»™ rá»‘i loáº¡n Ã½ thá»©c; thang Ä‘iá»ƒm hÃ´n mÃª nháº­t báº£n",
+    "weight": -17900,
+    "mobileId": 342355,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "845151f04f0a450aae495f3e42d57227",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Phosphatidylinositol 3-Kinases",
+    "word": "Phosphatidylinositol 3-Kinases",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 340932,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "5226163081b4413d98b274335b54ed14",
+    "_rev": ""
+  },
+  {
+    "means": [],
+    "phonetic": "Phosphodiesterase 3 Inhibitors",
+    "word": "Phosphodiesterase 3 Inhibitors",
+    "short_mean": "",
+    "weight": 0,
+    "mobileId": 341073,
+    "type": "word",
+    "label": "ja_vi",
+    "_id": "5768965d0db14c75a3edf3e8f01be714",
+    "_rev": ""
+  }
+]
