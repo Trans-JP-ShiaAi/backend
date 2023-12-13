@@ -1,39 +1,82 @@
 const httpStatus = require("http-status");
 const catchAsync = require("../utils/catchAsync");
-const cheerio = require("cheerio");
-const kanjiJson = require("../utils/data/kanji.json");
 const axios = require("axios");
 const longerDelayBetweenBatches = 1000;
+const listWord = require("../utils/data/test.json");
+const proxyServer = "https://gimmeproxy.com/api/getProxy";
+const fs = require("fs");
+const Word = require("../models/word.model");
+const { isKanjiWord } = require("../helpers/kanji");
 
-async function callApi(word) {
+const loadKanjiPayload = {
+  "dict": "javi",
+  "type": "kanji",
+  "page": 1
+};
+
+const loadWordPayload = {
+  dict: 'javi',
+  limit: 20,
+  page: 1,
+  query: '',
+  type: 'word'
+};
+
+const callApi = async (word) => {
   try {
-    const loadKanjiPayload = {
-      "dict": "javi",
-      "type": "kanji",
-      "page": 1
-    };
-    const payload = Object.assign({}, loadKanjiPayload, { query: word });
     const apiEndpoint = "https://mazii.net/api/search";
-    const response = await axios.post(apiEndpoint, payload, {
+    const wordPayload = { ...loadWordPayload, query: word };
+    const kanjiPayload = { ...loadKanjiPayload, query: word };
+    let kanjiRes = null;
+    if (isKanjiWord(word)) {
+      const kanjiRes = await axios.post(apiEndpoint, kanjiPayload, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+    };
+
+    const wordRes = await axios.post(apiEndpoint, { ...payload, query: word }, {
       headers: {
         'Content-Type': 'application/json',
       },
     });
 
-    console.log('Response', response)
+    if (kanjiRes) {
+      
+    }
+
+    // const data = response.data;
+    // const first = data[0];
+
+    // if (!first) {
+    //   console.log(`No result for word ${word}`);
+    //   return;
+    // }
+
+    // await Word.create({
+    //   meaning: first.means[0].mean_GG || first.means[0].mean,
+    //   freq: first.freq,
+    //   detail: 
+    // });
+
+   
   } catch (error) {
     console.error(`Error for word ${word}: ${error.message}`);
   }
-}
+};
 
-async function processBatch(words) {
-  const delayBetweenRequests = 1000 / 200; // 200 requests per second
+function processBatch(words) {
+  const delayBetweenRequests = 1000 / 200; 
 
-  for (const word of words) {
+  const promises = words.map(async (word) => {
     await callApi(word);
-    await new Promise(resolve => setTimeout(resolve, delayBetweenRequests));
-  }
+    await new Promise((resolve) => setTimeout(resolve, delayBetweenRequests));
+  });
+
+  return Promise.all(promises);
 }
+
 
 
 async function processFileInBatches(words, batchSize) {
@@ -44,25 +87,20 @@ async function processFileInBatches(words, batchSize) {
     const endIndex = startIndex + batchSize;
     const batch = words.slice(startIndex, endIndex);
     await processBatch(batch);
-
-    // Update the start index for the next batch
     startIndex = endIndex;
 
-    // Optionally, add a longer delay between batches if needed
     await new Promise(resolve => setTimeout(resolve, longerDelayBetweenBatches));
   }
 }
 
 const batchSize = 200;
 
-/* I'm really sorry Mazii, I'm just want to crawl data from your website to my database */
-/* I'm really sorry Mazii, I'm just want to crawl data from your website to my database */
-/* I'm really sorry Mazii, I'm just want to crawl data from your website to my database */
-const apiEndpoint = "" 
+/* I'm really sorry Mazii*/
+/* I'm really sorry Mazii*/
+/* I'm really sorry Mazii*/
 const crawlWord = catchAsync(async (req, res) => {
-  const words = kanjiJson.map(k => k.w);
+  const words = Object.keys(listWord);
   res.status(httpStatus.OK).send("Crawl successfully"); 
-
   await processFileInBatches(words, batchSize);
  
 });

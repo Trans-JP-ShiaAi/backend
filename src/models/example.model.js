@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { nowMs } = require('../helpers/date');
 
 const exampleSchema = mongoose.Schema(
   {
@@ -21,7 +22,8 @@ const exampleSchema = mongoose.Schema(
     trans: String,
   },
   {
-    timestamps: true,
+    timestamps: { currentTime: () => nowMs() },
+    versionKey: false
   }
 );
 

@@ -1,13 +1,8 @@
 const mongoose = require('mongoose');
+const { nowMs } = require('../helpers/date');
 
 const wordSchema = mongoose.Schema(
   {
-    wordId: {
-      type: Number,
-      required: true,
-      unique: true,
-      index: true,
-    },
     meaning: {
       type: String,
       required: true,
@@ -38,7 +33,8 @@ const wordSchema = mongoose.Schema(
     ],
   },
   {
-    timestamps: true,
+    timestamps: { currentTime: () => nowMs() },
+    versionKey: false
   }
 );
 

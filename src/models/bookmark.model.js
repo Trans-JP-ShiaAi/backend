@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { nowMs } = require('../helpers/date');
 
 const bookmarkSchema = mongoose.Schema(
   {
@@ -24,7 +25,8 @@ const bookmarkSchema = mongoose.Schema(
     },
   },
   {
-    timestamps: true,
+    timestamps: { currentTime: () => nowMs() },
+    versionKey: false
   }
 );
 

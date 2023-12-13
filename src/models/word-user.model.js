@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { nowMs } = require('../helpers/date');
 
 const wordUserSchema = mongoose.Schema(
   {
@@ -32,7 +33,8 @@ const wordUserSchema = mongoose.Schema(
     },
   },
   {
-    timestamps: true,
+    timestamps: { currentTime: () => nowMs() },
+    versionKey: false
   }
 );
 
